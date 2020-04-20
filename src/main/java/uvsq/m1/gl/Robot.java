@@ -4,7 +4,7 @@ public class Robot extends RobotStatique{
 
 	public Robot(Position position, Direction direction) {
 		super(position, direction);
-		// TODO Auto-generated constructor stub
+		
 	}
 	public void tourne() {
 		if(direction.equals(Direction.NORD)) {
